@@ -6,9 +6,13 @@
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'Papa Pyle' # Only 10 chars displayed.
-strategy_name = 'They dont think it be like that, but it do'
-strategy_description = 'If they aint gucci, we aint gucci.'
+team_name = 'Papa Pyle - Jackson' # Only 10 chars displayed.
+strategy_name = 'Collude then Betray'
+strategy_description = 'If the length of their history is greater than or equal to 150, betray. Else collude'
+
+# They dont think it be like that, but it do
+# If they aint gucci, we aint gucci.
+# Never forget the OG name and description
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
